@@ -3,19 +3,23 @@
 
 
 ## Required HomeWork/Tasks : 
-
 After watching the live streamed video, and preparing all prerequisites tools, i was enjyoing with doing the many tasks like : 
 
 
 ### Creation aws Account : 
-
-I Start with the creation of my aws account, after watching many videos instruction, i was able to create an aws account <strong> MOUSSAI </strong> without issue 
+I Start with the creation of my aws account, after watching many videos instruction, i was able to create an aws account <strong> MOUSSAI </strong> without issue :
 
 ![Capture d’écran 2023-02-18 à 01 30 04](https://user-images.githubusercontent.com/11331502/219821097-8b150eff-c502-4ed4-9035-09ce85d1aeb1.png)
 
+### Creation GitHub account : 
+<img width="1242" alt="Capture d’écran 2023-02-18 à 12 01 08" src="https://user-images.githubusercontent.com/11331502/219856774-015ae6fc-2146-4a0c-94f3-4e9517f3271e.png">
+
+
+### Creation of GitPod : 
+<img width="1242" alt="Capture d’écran 2023-02-18 à 12 02 27" src="https://user-images.githubusercontent.com/11331502/219856820-770db4f5-58dd-43da-bc0a-820b95827291.png">
+
 
 ### Watched Chirag's Week 0 - Spend Considerations : 
-
 After watching 'the Watched Chirag's Week 0 - Spend Considerations', i was able to improuve my understanding about billing and free tiers, and i learn how : 
 
 1. Mange billing with aws billing dashbord, and billing prefrences.
@@ -30,7 +34,6 @@ After watching 'the Watched Chirag's Week 0 - Spend Considerations', i was able 
 
 
 ### Watched Ashish's Week 0 - Security Considerations : 
-
 In this video, i learn many things about cloud security : 
 - Definition , why , and how to earn this skill (With a practice and practice).
 - Discovring IAM service. 
@@ -50,12 +53,9 @@ In this video, i learn many things about cloud security :
 - SCP : service controle policy for an organization.
 
 
-### Recreate Conceptual Diagram in Lucid Charts or on a Napkin
+### Recreate Logical Conceptual Diagram in Lucid Charts or on a Napkin
  
  - URL :  
-
-
-### Create an user admin
 
 
 ### Installed AWS CLI 
@@ -76,11 +76,17 @@ In this video, i learn many things about cloud security :
 
 ### Create a bbilling alarm
 
+<img width="1242" alt="Capture d’écran 2023-02-18 à 12 05 46" src="https://user-images.githubusercontent.com/11331502/219856966-78227043-b5ca-4a76-bf68-c90f66a7cadd.png">
+
 ![Capture d’écran 2023-02-18 à 01 34 57](https://user-images.githubusercontent.com/11331502/219821474-c9eea919-7c67-4477-b7cf-62cccdfd42e8.png)
 
 ### Create a Budget
 
-####  URL: 
+I create two budget one zero limit and second is credit budget : 
+
+<img width="1242" alt="Capture d’écran 2023-02-18 à 12 06 29" src="https://user-images.githubusercontent.com/11331502/219856995-7aeba655-a05d-48a7-8890-7040b7bed1ec.png">
+
+![Capture d’écran 2023-02-18 à 12 09 08](https://user-images.githubusercontent.com/11331502/219857094-44f4759e-8620-457e-ac98-9fab9e146fe2.png)
 
 
 
