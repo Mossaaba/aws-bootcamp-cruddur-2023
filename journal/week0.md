@@ -99,6 +99,12 @@ I create two budget one zero limit and second is credit budget :
 
 2. Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue : 
 
+
+-  ♾️ STEP 1 > [What is EventBridge](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html)
+-  ♾️ STEP 2 > [New EventBridge – Track and Respond to Changes to Your AWS Resources](https://aws.amazon.com/blogs/aws/new-cloudwatch-events-track-and-respond-to-changes-to-your-aws-resources/)
+-  ♾️ STEP 3 > [Creating an EventBridge rule for AWS Health](https://docs.aws.amazon.com/health/latest/ug/cloudwatch-events-health.html)
+
+
 3. Review all the questions of each pillars in the Well Architected Tool (No specialized lens) : 
 
 4. Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts : 
@@ -107,3 +113,9 @@ I create two budget one zero limit and second is credit budget :
 ### Reference : 
 
 6. Open a support ticket and request a service limit: 
+
+
+
+
+
+
