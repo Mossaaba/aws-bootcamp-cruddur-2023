@@ -3,7 +3,7 @@ This is the first week of the AWS bootcamp :
 
 
 
-# Environnemnt URL: 
+#  URL: 
 
 
 
