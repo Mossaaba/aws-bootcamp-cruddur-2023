@@ -55,7 +55,14 @@ In this video, i learn many things about cloud security :
 
 ### Recreate Logical Conceptual Diagram in Lucid Charts or on a Napkin
  
- - URL :  
+ link : https://lucid.app/lucidchart/187d5835-c301-40a4-8939-ce08485b27b3/edit?viewport_loc=-494%2C-169%2C3430%2C2197%2CP4jyho4UR2O-&invitationId=inv_aa654553-6541-4273-97a6-7ede49850d6e 
+![Capture d’écran 2023-02-18 à 13 19 34](https://user-images.githubusercontent.com/11331502/219865431-a704e7f5-8543-4897-a991-375e31dcee57.png)
+
+
+link :https://lucid.app/lucidchart/187d5835-c301-40a4-8939-ce08485b27b3/edit?viewport_loc=-1465%2C-257%2C1899%2C1216%2C0_0&invitationId=inv_aa654553-6541-4273-97a6-7ede49850d6e
+
+![Capture d’écran 2023-02-18 à 13 20 26](https://user-images.githubusercontent.com/11331502/219865445-3bd8ab0f-8e0a-426f-825e-0fee8aaef0ea.png)
+
 
 
 ### Installed AWS CLI 
