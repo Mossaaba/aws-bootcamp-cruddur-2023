@@ -3,13 +3,7 @@ This is the first week of the AWS bootcamp :
 
 
 
-
-
-
-
-
 # Environnemnt URL: 
-
 
 
 
@@ -41,7 +35,8 @@ This is the first week of the AWS bootcamp :
       'gp env AWS_DEFAULT_REGION=us-east-1
       
 * Check configuration : aws sts get-caller-identity : 
-![Capture d’écran 2023-02-18 à 01 27 25](https://user-images.githubusercontent.com/11331502/219820982-86de6d39-8893-4fb4-91b2-2b1ca1d2b6fc.png)
+![Capture d’écran 2023-02-18 à 01 40 37](https://user-images.githubusercontent.com/11331502/219821803-6ece54a8-2a64-4f64-90da-ef74d39d331e.png)
+
 
 
 
