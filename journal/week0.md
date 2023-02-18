@@ -74,7 +74,7 @@ In this video, i learn many things about cloud security :
 ![Capture d’écran 2023-02-18 à 01 40 37](https://user-images.githubusercontent.com/11331502/219821803-6ece54a8-2a64-4f64-90da-ef74d39d331e.png)
 
 
-### Create a bbilling alarm
+### Create a billing alarm
 
 <img width="1242" alt="Capture d’écran 2023-02-18 à 12 05 46" src="https://user-images.githubusercontent.com/11331502/219856966-78227043-b5ca-4a76-bf68-c90f66a7cadd.png">
 
