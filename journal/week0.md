@@ -27,12 +27,20 @@ This is the first week of the AWS bootcamp :
  * User Interface :  ![image](https://user-images.githubusercontent.com/11331502/219821278-5930f47c-0032-4d32-9ac5-958208fda842.png)
  * AWS CLI 
 
-
+- Creating Billing alarms : 
+![Capture d’écran 2023-02-18 à 01 34 57](https://user-images.githubusercontent.com/11331502/219821474-c9eea919-7c67-4477-b7cf-62cccdfd42e8.png)
 
 
 - GitPod installation and configuration : 
- * Install CLI : sudo ./aws/install
- * Vesrion : /usr/local/bin/aws --version
+ * Install AWS CLI : sudo ./aws/install
+ * Version : /usr/local/bin/aws --version
+ * Generate AWS Credentials
+ * Set gitpod environment varaiables : 
+      'gp env AWS_ACCESS_KEY_ID=""
+      'gp env AWS_SECRET_ACCESS_KEY=""
+      'gp env AWS_DEFAULT_REGION=us-east-1
+      
+* Check configuration : aws sts get-caller-identity : 
 ![Capture d’écran 2023-02-18 à 01 27 25](https://user-images.githubusercontent.com/11331502/219820982-86de6d39-8893-4fb4-91b2-2b1ca1d2b6fc.png)
 
 
