@@ -3,7 +3,7 @@
 
 
 ## Required HomeWork/Tasks : 
-After watching the live streamed video, and preparing all prerequisites tools, i have did required tasks like : 
+After watching the live streamed video, and preparing all prerequisites tools, i have did required tasks : 
 
 
 ### Creation aws Account : 
@@ -102,9 +102,9 @@ I create two budget one zero limit and second is credit budget :
 ##  Homework Challenges
  This part are for the homework chalanges : 
 
-1. Destroy your root account credentials, Set MFA, IAM role : 
+#### 1. Destroy your root account credentials, Set MFA, IAM role : 
 
-2. Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue : 
+#### 2. Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue : 
 
 
 -  ♾️ STEP 1 > [What is EventBridge](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html)
@@ -112,11 +112,11 @@ I create two budget one zero limit and second is credit budget :
 -  ♾️ STEP 3 > [Creating an EventBridge rule for AWS Health](https://docs.aws.amazon.com/health/latest/ug/cloudwatch-events-health.html)
 
 
-3. Review all the questions of each pillars in the Well Architected Tool (No specialized lens) : 
+#### 3. Review all the questions of each pillars in the Well Architected Tool (No specialized lens) : 
 
-4. Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts : 
+#### 4. Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts : 
 
-URL : https://lucid.app/lucidchart/c59b08f6-2de3-4edc-a566-6ca6b6ee1c29/edit?invitationId=inv_d5811a16-bbbd-4822-9f94-e919edd6399e&page=0_0#
+[URL DIAGRAM] (https://lucid.app/lucidchart/c59b08f6-2de3-4edc-a566-6ca6b6ee1c29/edit?invitationId=inv_d5811a16-bbbd-4822-9f94-e919edd6399e&page=0_0#)
 
 ![Blank diagram](https://user-images.githubusercontent.com/11331502/219961362-12a0d409-1940-488a-9dd8-8222494eebe7.png)
 
