@@ -121,10 +121,29 @@ I create two budget one zero limit and second is credit budget :
 ![Blank diagram](https://user-images.githubusercontent.com/11331502/219961362-12a0d409-1940-488a-9dd8-8222494eebe7.png)
 
 
-5. Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility : 
-### Reference : 
+#### 5. Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility : 
+### EC2 LIMITES :
 
-6. Open a support ticket and request a service limit: 
+```EC2``` : has certain technical and service limits that can impact the technical path for technical flexibility.
+
+**Some of the technical limits of EC2 include** : 
+- Limits on the number of instances that can be launched.
+- The amount of storage that can be used.
+- Number of IP addresses that can be assigned. 
+
+These limits can impact the scalability and performance of applications running on EC2. For example, if an application requires more resources than the limits allow, it may not be able to scale properly or may experience performance issues.
+
+
+**In terms of service limits** : 
+- EC2 has limits on the number of API requests that can be made.
+- The amount of data that can be transferred.
+- And the number of concurrent connections. 
+
+These limits can impact the reliability and availability of applications running on EC2. For example, if an application is making too many API requests, it may exceed the limit and become unavailable.
+
+[SOURCE] : (https://aws.amazon.com/fr/ec2/cost-and-capacity/)
+
+#### 6. Open a support ticket and request a service limit: 
 
 
 
