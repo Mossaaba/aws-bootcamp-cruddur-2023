@@ -103,6 +103,8 @@ I create two budget one zero limit and second is credit budget :
  This part are for the homework chalanges : 
 
 #### 1. Destroy your root account credentials, Set MFA, IAM role : 
+![Capture d’écran 2023-02-19 à 18 13 00](https://user-images.githubusercontent.com/11331502/219963736-744a96ed-71a0-4f6f-b4a3-238403f61ccc.png)
+
 
 #### 2. Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue : 
 
