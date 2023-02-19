@@ -38,7 +38,7 @@ In this video, i learn many things about cloud security :
 - Definition , why , and how to earn this skill (With a practice and practice).
 - Discovring IAM service. 
 - Enbaling MFA for root user.
-![Capture d’écran 2023-02-18 à 11 28 23](https://user-images.githubusercontent.com/11331502/219855527-73e11ff3-0f4e-48ac-bba5-079223b1fd71.png)
+![Capture d’écran 2023-02-18 à 11 28 23](https://user-images.githubusercontent.com/11331502/219963430-f20bbec3-e149-413e-8a22-8425a263d84f.png)
 - Creating organization unite.
 ![Capture d’écran 2023-02-18 à 11 30 42](https://user-images.githubusercontent.com/11331502/219855613-4f1687c1-4b2b-4bdd-85a4-c1f87c4089b1.png)
 - Creating active and standby account folder.
