@@ -154,8 +154,7 @@ echo "Flask app running"
 
 3. Push and tag a image to DockerHub (they have a free tier)
 
-
-<img width="1680" alt="image" src="https://user-images.githubusercontent.com/11331502/221045123-05eaad88-e3a1-4352-a3c9-48e14f56f484.png">
+<img width="1680" alt="Capture d’écran 2023-02-23 à 23 27 00" src="https://user-images.githubusercontent.com/11331502/221045204-592dbd53-a7fd-45df-8f33-ebe8128bb17c.png">
 
 5. Use multi-stage building for a Dockerfile build
 6. Implement a healthcheck in the V3 Docker compose file
