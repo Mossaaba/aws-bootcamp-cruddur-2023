@@ -35,10 +35,18 @@ to resume :
 
 
 8. Write a Dockerfile for each app
+- capture docker extension 
+![Capture d’écran 2023-02-23 à 12 03 31](https://user-images.githubusercontent.com/11331502/220888829-9dd6935c-3b5c-4ff3-bca2-8b9d4193250b.png)
+
+
+
 10. Ensure we get the apps running via individual container
-11. Create a docker-compose file
-12. Ensure we can orchestrate multiple containers to run side by side
-13. Mount directories so we can make changes while we code
+#### backend-flask : run the container 
+<img width="1680" alt="Capture d’écran 2023-02-23 à 12 15 06" src="https://user-images.githubusercontent.com/11331502/220891088-3b7fa918-3d61-442b-8b0d-257713afe771.png">
+
+12. Create a docker-compose file
+13. Ensure we can orchestrate multiple containers to run side by side
+14. Mount directories so we can make changes while we code
 
 
 
