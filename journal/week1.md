@@ -1,8 +1,27 @@
-# Week 1 — App Containerization
+# Week 1 — App Containerization. (Read and correct again)
 
 to resume : 
 
-- run the application fronend
+Calssromme : 
+
+- Run the app (Front + back ) localy 
+- Run each application with docker 
+- Run bother with docker compose 
+
+Security : 
+
+
+- Why i should care about docker sucrity : because most toolS USE IT and have to be secure 
+- Snan in anbrew 
+- Manged container service ECS ,
+- Unmaged spending a lot of time to update   
+- Best practise for containirasion 
+- Use Synk open source to sacan and get suggestion 
+- Should have a secrete manager 
+- How to use aws seceret manager 
+- AWS Inspector/Clair to scane imgage docker / container / instance / lammbda 
+- Scan images with Synk localy 
+
 - Create a docker file build the image push the image to the repository 
 - if we don't specify th : tag , the docker damon will be uset the lastest as default 
 
