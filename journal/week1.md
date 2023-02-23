@@ -100,6 +100,11 @@ run docker compose
 <img width="1680" alt="Capture d’écran 2023-02-23 à 19 33 57" src="https://user-images.githubusercontent.com/11331502/220999098-ef09b8f4-255e-43b1-bace-168596d3d58f.png">
 
 
+Connecting postgreSQL
+
+<img width="1680" alt="Capture d’écran 2023-02-23 à 20 24 54" src="https://user-images.githubusercontent.com/11331502/221009827-3beb10f9-6527-4268-a3c5-fe0cdf8107ab.png">
+
+
 
 ### Homework chalanges 
 
