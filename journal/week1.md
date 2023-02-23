@@ -169,21 +169,27 @@ echo "Flask app running"
 - What is multi-stage building for a doker file ? 
 
 Multi-stage builds allow you to create smaller and more efficient Docker images by using multiple FROM statements in your Dockerfile.
+We can use multi-stage builds to optimize this Dockerfile for our Crudder backend application. : 
 
+-- by separating the build environment and runtime environment into two stages
 ```
-# Stage 1: Build the app
-FROM node:14 as build
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
+# Stage 1: Build the application 
+FROM python:3.10-slim-buster AS build
+WORKDIR /backend-flask
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
 COPY . .
-RUN npm run build
 
-# Stage 2: Create the final image
-FROM nginx:stable-alpine
-COPY --from=build /app/build /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+# Stage 2: Create the docker image
+FROM python:3.10-slim-buster AS production
+WORKDIR /backend-flask
+COPY --from=build /backend-flask /backend-flask
+ENV FLASK_ENV=production
+EXPOSE ${PORT}
+COPY my_script.sh /usr/local/bin/my_script.sh
+RUN chmod +x /usr/local/bin/my_script.sh
+CMD ["my_script.sh"]
+
 ```
 7. Implement a healthcheck in the V3 Docker compose file
 8. Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
