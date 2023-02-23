@@ -218,4 +218,8 @@ CMD ["my_script.sh"]
 - Use COPY instead of ADD: Use the COPY command instead of the ADD command to copy files into the image. The ADD command can be used to download files from URLs, which can introduce security risks.
 
 10. Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
-11. Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
+
+https://docs.docker.com/desktop/install/windows-install/
+
+
+12. Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
