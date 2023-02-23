@@ -7,6 +7,8 @@ Calssromme :
 - Run the app (Front + back ) localy 
 - Run each application with docker 
 - Run bother with docker compose 
+- Writing falsk notification using open API
+- Ading new react page  
 
 Security : 
 
@@ -92,6 +94,12 @@ run docker compose
 
 
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/11331502/220906902-15faeb82-3b55-44a2-a334-8994bdb836bc.png">
+
+
+#### Add notifications : 
+<img width="1680" alt="Capture d’écran 2023-02-23 à 19 33 57" src="https://user-images.githubusercontent.com/11331502/220999098-ef09b8f4-255e-43b1-bace-168596d3d58f.png">
+
+
 
 ### Homework chalanges 
 
