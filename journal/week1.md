@@ -5,7 +5,7 @@
 
 ### Hand-On
 
-1. Create a new GitHub repo and luunch the week-1 with gitPod : 
+1. Create a new GitHub repo and lunch the week-1 with gitPod : 
 ![Capture d’écran 2023-02-23 à 10 29 46](https://user-images.githubusercontent.com/11331502/220868759-f55da7f5-55de-42fc-acc9-16f8d8a3dd96.png)
 
 (Unlock the port)
