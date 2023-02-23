@@ -156,6 +156,12 @@ echo "Flask app running"
 
 <img width="1680" alt="Capture d’écran 2023-02-23 à 23 27 00" src="https://user-images.githubusercontent.com/11331502/221045204-592dbd53-a7fd-45df-8f33-ebe8128bb17c.png">
 
+<img width="1680" alt="Capture d’écran 2023-02-23 à 23 39 10" src="https://user-images.githubusercontent.com/11331502/221047187-b6ab81b8-b259-48d1-8c8f-f746f46fa177.png">
+
+
+<img width="1680" alt="Capture d’écran 2023-02-23 à 23 42 24" src="https://user-images.githubusercontent.com/11331502/221047341-d5c17e7b-92a1-4a9c-8840-c00cf04d31f0.png">
+
+
 5. Use multi-stage building for a Dockerfile build
 6. Implement a healthcheck in the V3 Docker compose file
 7. Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
