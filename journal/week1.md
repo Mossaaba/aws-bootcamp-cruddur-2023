@@ -163,7 +163,10 @@ echo "Flask app running"
 
 
 5. Use multi-stage building for a Dockerfile build
-What is multi-stage building for a doker file ? 
+
+
+
+- What is multi-stage building for a doker file ? 
 
 Multi-stage builds allow you to create smaller and more efficient Docker images by using multiple FROM statements in your Dockerfile.
 
