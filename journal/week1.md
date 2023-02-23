@@ -196,5 +196,26 @@ CMD ["my_script.sh"]
 ```
 7. Implement a healthcheck in the V3 Docker compose file
 8. Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
-9. Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
-10. Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
+
+- Use official base images: Always use official base images from Docker Hub or a trusted registry. Official images are tested, maintained, and have better security practices.
+
+- Keep images small: Use the alpine or slim version of the base image to keep the size of the Docker image small. Only include necessary dependencies and files in the image.
+
+- Use multi-stage builds: Use multi-stage builds to separate the build environment and runtime environment. This can help reduce the size of the final image.
+
+- Use a .dockerignore file: Use a .dockerignore file to exclude unnecessary files and directories from the build context. This can help reduce the size of the Docker build context and the final image.
+
+- Avoid running as root: Avoid running containers as the root user to reduce the risk of security vulnerabilities. Instead, use a non-root user and set appropriate permissions on files and directories.
+
+- Clean up after each step: Clean up after each step to remove unnecessary files and reduce the size of the final image. Use RUN rm -rf /var/lib/apt/lists/* to clean up apt-get caches and pip-cache purge to remove pip cache.
+
+- Use environment variables: Use environment variables to make the Docker image configurable and easier to deploy in different environments.
+
+- Run only one process per container: Run only one process per container. This makes it easier to scale and manage containers and helps with debugging.
+
+- Use healthchecks: Use healthchecks to monitor the health of the container and to ensure that the container is running properly.
+
+- Use COPY instead of ADD: Use the COPY command instead of the ADD command to copy files into the image. The ADD command can be used to download files from URLs, which can introduce security risks.
+
+10. Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
+11. Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
