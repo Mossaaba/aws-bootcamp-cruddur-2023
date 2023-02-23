@@ -173,14 +173,17 @@ We can use multi-stage builds to optimize this Dockerfile for our Crudder backen
 
 -- by separating the build environment and runtime environment into two stages
 ```
+##################################
 # Stage 1: Build the application 
+##################################
 FROM python:3.10-slim-buster AS build
 WORKDIR /backend-flask
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 COPY . .
-
+####################################
 # Stage 2: Create the docker image
+####################################
 FROM python:3.10-slim-buster AS production
 WORKDIR /backend-flask
 COPY --from=build /backend-flask /backend-flask
