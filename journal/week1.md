@@ -16,7 +16,7 @@ Security :
 - Manged container service ECS ,
 - Unmaged spending a lot of time to update   
 - Best practise for containirasion 
-- Use Synk open source to sacan and get suggestion 
+- Use Synk open source to sacan and get suggestion (SRC) https://app.snyk.io/org/mossaaba/project/6d809264-2847-4b38-9daf-4092a461c0fc
 - Should have a secrete manager 
 - How to use aws seceret manager 
 - AWS Inspector/Clair to scane imgage docker / container / instance / lammbda 
