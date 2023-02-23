@@ -1,4 +1,4 @@
-import './NotificationsFeedPage.css';
+import './HomeFeedPage.css';
 import React from "react";
 
 import DesktopNavigation  from '../components/DesktopNavigation';
@@ -20,7 +20,7 @@ export default function HomeFeedPage() {
 
   const loadData = async () => {
     try {
-      const backend_url = `${process.env.REACT_APP_BACKEND_URL}/api/activities/notifications`
+      const backend_url = `${process.env.REACT_APP_BACKEND_URL}/api/activities/home`
       const res = await fetch(backend_url, {
         method: "GET"
       });
@@ -57,7 +57,7 @@ export default function HomeFeedPage() {
 
   return (
     <article>
-      <DesktopNavigation user={user} active={'Notifications'} setPopped={setPopped} />
+      <DesktopNavigation user={user} active={'home'} setPopped={setPopped} />
       <div className='content'>
         <ActivityForm  
           popped={popped}
@@ -72,7 +72,7 @@ export default function HomeFeedPage() {
           activities={activities} 
         />
         <ActivityFeed 
-          title="Notifications" 
+          title="Home" 
           setReplyActivity={setReplyActivity} 
           setPopped={setPoppedReply} 
           activities={activities} 
