@@ -5,17 +5,26 @@
 
 ### Hand-On
 
-1. Create a new GitHub repo
-2. Launch the repo within a Gitpod workspace
-3. Configure Gitpod.yml configuration, eg. I’m VSCode Extensions
-4. Clone the frontend and backend repo
-5. Explore the codebases
-6. Ensure we can get the apps running locally
-7. Write a Dockerfile for each app
-8. Ensure we get the apps running via individual container
-9. Create a docker-compose file
-10. Ensure we can orchestrate multiple containers to run side by side
-11. Mount directories so we can make changes while we code
+1. Create a new GitHub repo and luunch the week-1 with gitPod : 
+![Capture d’écran 2023-02-23 à 10 29 46](https://user-images.githubusercontent.com/11331502/220868759-f55da7f5-55de-42fc-acc9-16f8d8a3dd96.png)
+
+(Unlock the port)
+
+- Run the server localy and getting the json response:
+
+ ![Capture d’écran 2023-02-23 à 10 37 11](https://user-images.githubusercontent.com/11331502/220870400-adb05d2b-3b52-441b-aa54-44ab3159e100.png)
+
+
+3. Launch the repo within a Gitpod workspace
+4. Configure Gitpod.yml configuration, eg. I’m VSCode Extensions
+5. Clone the frontend and backend repo
+6. Explore the codebases
+7. Ensure we can get the apps running locally
+8. Write a Dockerfile for each app
+9. Ensure we get the apps running via individual container
+10. Create a docker-compose file
+11. Ensure we can orchestrate multiple containers to run side by side
+12. Mount directories so we can make changes while we code
 
 
 
