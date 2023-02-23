@@ -153,8 +153,12 @@ echo "Flask app running"
 
 
 3. Push and tag a image to DockerHub (they have a free tier)
-4. Use multi-stage building for a Dockerfile build
-5. Implement a healthcheck in the V3 Docker compose file
-6. Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
-7. Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
-8. Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
+
+
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/11331502/221045123-05eaad88-e3a1-4352-a3c9-48e14f56f484.png">
+
+5. Use multi-stage building for a Dockerfile build
+6. Implement a healthcheck in the V3 Docker compose file
+7. Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
+8. Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
+9. Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
