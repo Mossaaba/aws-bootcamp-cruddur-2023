@@ -163,7 +163,26 @@ echo "Flask app running"
 
 
 5. Use multi-stage building for a Dockerfile build
-6. Implement a healthcheck in the V3 Docker compose file
-7. Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
-8. Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
-9. Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
+What is multi-stage building for a doker file ? 
+
+Multi-stage builds allow you to create smaller and more efficient Docker images by using multiple FROM statements in your Dockerfile.
+
+```
+# Stage 1: Build the app
+FROM node:14 as build
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+
+# Stage 2: Create the final image
+FROM nginx:stable-alpine
+COPY --from=build /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+```
+7. Implement a healthcheck in the V3 Docker compose file
+8. Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
+9. Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
+10. Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
