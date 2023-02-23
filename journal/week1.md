@@ -110,9 +110,51 @@ Connecting postgreSQL
 
 
 1. Run the dockerfile CMD as an external script
-2. Push and tag a image to DockerHub (they have a free tier)
-3. Use multi-stage building for a Dockerfile build
-4. Implement a healthcheck in the V3 Docker compose file
-5. Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
-6. Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
-7. Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
+
+Dockerfile : 
+
+```
+FROM python:3.10-slim-buster
+
+WORKDIR /backend-flask
+
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
+
+COPY . .
+
+ENV FLASK_ENV=development
+
+EXPOSE ${PORT}
+
+COPY my_script.sh /usr/local/bin/my_script.sh
+
+# Make the script executable
+RUN chmod +x /usr/local/bin/my_script.sh
+
+# Set the command to run the script
+CMD ["my_script.sh"]
+```
+
+
+Script : 
+
+```
+# Run your commands here
+python3 -m flask run --host=0.0.0.0 --port=4567 &
+sleep 5
+echo "Flask app running"
+
+
+```
+
+<img width="1680" alt="Capture d’écran 2023-02-23 à 23 22 26" src="https://user-images.githubusercontent.com/11331502/221044125-c85b1862-92b4-4e31-9303-a7bac6b320f8.png">
+
+
+
+3. Push and tag a image to DockerHub (they have a free tier)
+4. Use multi-stage building for a Dockerfile build
+5. Implement a healthcheck in the V3 Docker compose file
+6. Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
+7. Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
+8. Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
