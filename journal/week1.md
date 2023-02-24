@@ -8,23 +8,22 @@
 
     - Run the app (front-end and back-end) locally.
     - Run each application with Docker.
+    - Build and run docker image using Dockerfile.
     - Run both with Docker Compose.
     - Write Flask notification using OpenAPI.
     - Add a new React page.
 
 * Security videos : 
 
-   - Why i should care about docker sucrity : because most toolS USE IT and have to be secure 
-   - Snan in anbrew 
-   - Manged container service ECS ,
-   - Unmaged spending a lot of time to update   
-   - Best practise for containirasion 
-   - Use Synk open source to sacan and get suggestion (SRC) (https://app.snyk.io/org/mossaaba/project/6d809264-2847-4b38-9daf-4092a461c0fc)
-   - Should have a secrete manager 
-   - How to use aws seceret manager 
-   - AWS Inspector/Clair to scane imgage docker / container / instance / lammbda 
-   - Scan images with Synk localy 
-
+   - Why i should care about docker sucrity.
+   - Manged container service ECS.
+   - Unmaged containers cost a lot of time to update.  
+   - Learn about the best practise for containirasion 
+     - Use Synk open source to sacan and get suggestion (SRC) (https://app.snyk.io/org/mossaaba/project/6d809264-2847-4b38-9daf-4092a461c0fc)
+     - Should have a secrete manager 
+     - How to use aws seceret manager 
+     - AWS Inspector/Clair to scane imgage docker / container / instance / lammbda 
+     - Scan images with Synk localy 
 
 
 ### Hand-On
