@@ -1,4 +1,4 @@
-# Week 1 — App Containerization. (Read and correct again)
+# Week 1 — App Containerization.
  
  
  #### Personal summary 
@@ -288,7 +288,7 @@ healthcheck:
 
 10. Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
 
-https://docs.docker.com/desktop/install/windows-install/
+ [source] (https://docs.docker.com/desktop/install/windows-install/)
 
 
 #### Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
