@@ -26,7 +26,7 @@
      - Scan images with Synk localy 
 
 
-### Hand-On
+### Homework : 
 
 1. Create a new GitHub repo and lunch the week-1 with gitPod.
 3. Launch the repo within a Gitpod workspace
@@ -169,7 +169,7 @@ echo "Flask app running"
 Multi-stage builds allow you to create smaller and more efficient Docker images by using multiple FROM statements in your Dockerfile.
 We can use multi-stage builds to optimize this Dockerfile for our Crudder backend application. : 
 
--- by separating the build environment and runtime environment into two stages
+> by separating the build environment and runtime environment into two stages
 ```
 ##################################
 # Stage 1: Build the application 
