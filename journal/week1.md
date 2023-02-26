@@ -251,7 +251,7 @@ CMD ["my_script.sh"]
 
 #### Implement a healthcheck in the V3 Docker compose file
 
-Adding this to docker compose file 
+Adding this to docker compose file [Lin](https://docs.docker.com/engine/reference/builder/#healthcheck)
 
 ````sh
 
@@ -263,7 +263,7 @@ healthcheck:
       
 ````
 
-
+> Best Practices Docker [Link](https://testdriven.io/blog/docker-best-practices/#prefer-copy-over-add)
 ### Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
 
 - Use official base images: Always use official base images from Docker Hub or a trusted registry. Official images are tested, maintained, and have better security practices.
