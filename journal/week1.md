@@ -255,13 +255,16 @@ Adding this to docker compose file [Lin](https://docs.docker.com/engine/referenc
 
 ````sh
 
-healthcheck:
-      test: curl --fail https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}/api/activities/home
-      interval: 30s
-      timeout: 10s
-      retries: 3
+ healthcheck:
+   test: curl --fail https://localhost:4567/api/activities/home
+   interval: 30s
+   timeout: 10s
+   retries: 3
       
 ````
+
+<img width="1680" alt="Capture d’écran 2023-02-26 à 10 23 02" src="https://user-images.githubusercontent.com/11331502/221402502-ae39c684-1ea5-429f-892d-cd7c8443b598.png">
+
 
 > Best Practices Docker [Link](https://testdriven.io/blog/docker-best-practices/#prefer-copy-over-add)
 ### Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
