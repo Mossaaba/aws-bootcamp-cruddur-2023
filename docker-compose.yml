@@ -10,7 +10,7 @@ services:
     volumes:
       - ./backend-flask:/backend-flask
     healthcheck:
-      test: curl --fail https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}/api/activities/home
+      test: curl --fail https://localhost:4567/api/activities/home
       interval: 30s
       timeout: 10s
       retries: 3
