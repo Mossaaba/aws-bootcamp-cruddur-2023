@@ -323,7 +323,7 @@ sudo usermod -aG docker $USER
 newgrp docker
 docker run hello-world
 ```
-7. Pull and Nginx images : 
+7. Pull and run Nginx images : 
 
 <img width="1530" alt="Capture d’écran 2023-02-27 à 22 43 59" src="https://user-images.githubusercontent.com/11331502/221692745-ab33217d-ee19-437e-962d-1633c399bf22.png">
 
