@@ -304,8 +304,6 @@ Adding this to docker compose file [Lin](https://docs.docker.com/engine/referenc
 4. Connect with ssh 
 <img width="1680" alt="Capture d’écran 2023-02-27 à 22 11 30" src="https://user-images.githubusercontent.com/11331502/221687063-56ab7c59-aa41-48c3-a911-c0b9969e9f12.png">
 
-<img width="900" alt="Capture d’écran 2023-02-27 à 22 14 15" src="https://user-images.githubusercontent.com/11331502/221687735-9d8070fa-9e44-4da3-ae9b-ae49a63ce275.png">
-
 5. Install docker 
 ```sh 
 sudo apt-get update && sudo apt-get upgrade
