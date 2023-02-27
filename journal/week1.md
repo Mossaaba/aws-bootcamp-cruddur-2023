@@ -315,4 +315,6 @@ sudo systemctl status docker
 sudo systemctl enable docker
 
 ```
+<img width="1505" alt="Capture d’écran 2023-02-27 à 22 37 33" src="https://user-images.githubusercontent.com/11331502/221691457-349819c2-19d0-47df-9396-c43d89fe4dbd.png">
+
 
