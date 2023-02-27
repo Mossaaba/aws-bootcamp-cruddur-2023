@@ -296,4 +296,15 @@ Adding this to docker compose file [Lin](https://docs.docker.com/engine/referenc
 
 #### Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
 
+1. Create EC2 machine
+<img width="1680" alt="Capture d’écran 2023-02-27 à 22 10 36" src="https://user-images.githubusercontent.com/11331502/221686501-65f6da5f-ced4-4b18-9c6c-96b020992ce2.png">
+
+2. Launch the instance.
+3. Get the .pem file 
+4. Connect with ssh 
+<img width="1680" alt="Capture d’écran 2023-02-27 à 22 11 30" src="https://user-images.githubusercontent.com/11331502/221687063-56ab7c59-aa41-48c3-a911-c0b9969e9f12.png">
+
+<img width="900" alt="Capture d’écran 2023-02-27 à 22 14 15" src="https://user-images.githubusercontent.com/11331502/221687735-9d8070fa-9e44-4da3-ae9b-ae49a63ce275.png">
+
+
 
