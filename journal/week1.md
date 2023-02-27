@@ -315,4 +315,20 @@ sudo systemctl enable docker
 ```
 <img width="1505" alt="Capture d’écran 2023-02-27 à 22 37 33" src="https://user-images.githubusercontent.com/11331502/221691457-349819c2-19d0-47df-9396-c43d89fe4dbd.png">
 
+6. If you want to run docker as non-root user then you need to add it to the docker group.
+
+```sh
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker run hello-world
+```
+7. Pull and Nginx images : 
+
+<img width="1530" alt="Capture d’écran 2023-02-27 à 22 43 59" src="https://user-images.githubusercontent.com/11331502/221692745-ab33217d-ee19-437e-962d-1633c399bf22.png">
+
+8. Test the acces with (public adresse :8080 )
+
+<img width="1680" alt="Capture d’écran 2023-02-27 à 22 47 28" src="https://user-images.githubusercontent.com/11331502/221693318-45cf50c4-1b19-4480-b93c-2f4e4e4bfe34.png">
+
 
