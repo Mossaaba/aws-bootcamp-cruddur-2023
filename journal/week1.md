@@ -306,5 +306,13 @@ Adding this to docker compose file [Lin](https://docs.docker.com/engine/referenc
 
 <img width="900" alt="Capture d’écran 2023-02-27 à 22 14 15" src="https://user-images.githubusercontent.com/11331502/221687735-9d8070fa-9e44-4da3-ae9b-ae49a63ce275.png">
 
+5. Install docker 
+6. ```sh 
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install docker.io
+sudo systemctl start docker
+sudo systemctl status docker
+sudo systemctl enable docker
 
+```
 
