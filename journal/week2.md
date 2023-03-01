@@ -17,3 +17,14 @@ Capture d’écran 2023-03-01 à 23.10.59.png
 >> In our case we are using honeycomb as OTEL collector 
 
 - Add requirements 
+- Add instrumentation lines to app.py
+
+>> Best practice for docker is use dockerfile for each environnement 
+
+- Adding open port as default setting for gitpod.
+
+- Getting connect to honeycomb and send datd. 
+
+- Adding more span 
+
+-- adding 
