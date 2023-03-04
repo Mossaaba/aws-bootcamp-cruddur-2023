@@ -1,13 +1,14 @@
 from datetime import datetime, timedelta, timezone
 from opentelemetry import trace
 
+
 tracer = trace.get_tracer("Home.activities") 
 
 class HomeActivities:
-  def run():
+  def run(logger):
    with tracer.start_as_current_span("do_roll") as rollspan:
     span = trace.get_current_span()
-    
+    #logger.info ("Home activities")
     now = datetime.now(timezone.utc).astimezone()
     span.set_attribute("app.now", now.isoformat())
     results = [{
