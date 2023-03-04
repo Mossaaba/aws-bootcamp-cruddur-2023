@@ -77,8 +77,7 @@ I can now see the new span ```do-roll ``` in the Honeycomb :
 
 ## X-RAY : 
 
-![Capture d’écran 2023-03-04 à 10 50 41](https://user-images.githubusercontent.com/11331502/222892856-b40569bd-02a1-4ef7-a303-ea34b145f9e8.png)
-
+![Capture d’écran 2023-03-04 à 10 50 41](https://user-images.githubusercontent.com/11331502/222897023-cd2ae58c-5d45-4e27-b12b-edfa28b2f266.png)
 
 
 1. Flask Part  : 
