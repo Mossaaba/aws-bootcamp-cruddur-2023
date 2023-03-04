@@ -77,6 +77,59 @@ I can now see the new span ```do-roll ``` in the Honeycomb :
 
 ## X-RAY : 
 
-
-
 ![Capture d’écran 2023-03-04 à 10 50 41](https://user-images.githubusercontent.com/11331502/222892856-b40569bd-02a1-4ef7-a303-ea34b145f9e8.png)
+
+
+
+1. Flask Part  : 
+
+* Adding X-RAY SDK 
+```sh 
+aws-xray-sdk
+```
+
+* Install requirment  
+```sh 
+pip install -r requirements.txt
+```
+
+* Add code to app.py 
+```sh 
+from aws_xray_sdk.core import xray_recorder
+from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
+
+xray_url = os.getenv("AWS_XRAY_URL")
+xray_recorder.configure(service='Cruddur', dynamic_naming=xray_url)
+XRayMiddleware(app, xray_recorder)
+```
+* Add Xray configuration as json file : 
+
+```json 
+{
+  "SamplingRule": {
+      "RuleName": "Cruddur",
+      "ResourceARN": "*",
+      "Priority": 9000,
+      "FixedRate": 0.1,
+      "ReservoirSize": 5,
+      "ServiceName": "Cruddur",
+      "ServiceType": "*",
+      "Host": "*",
+      "HTTPMethod": "*",
+      "URLPath": "*",
+      "Version": 1
+  }
+}
+```
+
+* Create Xray group using CLI 
+```sh 
+FLASK_ADDRESS="https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+aws xray create-group \
+   --group-name "Cruddur" \
+   --filter-expression "service(\"$FLASK_ADDRESS\") {fault OR error}"
+```
+<img width="1680" alt="Capture d’écran 2023-03-04 à 11 24 49" src="https://user-images.githubusercontent.com/11331502/222894536-46920290-0181-4b6c-8fdb-90ef68263865.png">
+
+
+2. React Part 
