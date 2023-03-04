@@ -192,11 +192,29 @@ LOGGER.info('Hello Cloudwatch! from  /api/activities/home')
 <img width="1680" alt="Capture d’écran 2023-03-04 à 12 08 41" src="https://user-images.githubusercontent.com/11331502/222896628-0bc4db91-6176-4eab-b0c2-cbdd9d7d5a95.png">
 
 
-
-
-
 ## Rollbar 
 
+* Adding requirement and intsall : 
+```sh 
+blinker
+rollbar
+pip install -r requirements.txt
+```
+
+* Export token : 
+
+````sh 
+export ROLLBAR_ACCESS_TOKEN=""
+gp env ROLLBAR_ACCESS_TOKEN=""
+````
+
+
+* Update docker compose : 
+
+<img width="1680" alt="Capture d’écran 2023-03-04 à 12 35 24" src="https://user-images.githubusercontent.com/11331502/222897737-8ff646ba-ca1a-452c-a7fe-4992f08fbd19.png">
+
+* Test rollbar  : 
+<img width="1680" alt="Capture d’écran 2023-03-04 à 12 34 42" src="https://user-images.githubusercontent.com/11331502/222897744-6350f51f-076f-41e1-a21f-f1c578212a0f.png">
 
 
 ## Homowrok chalanges : 
