@@ -132,4 +132,12 @@ aws xray create-group \
 <img width="1680" alt="Capture d’écran 2023-03-04 à 11 24 49" src="https://user-images.githubusercontent.com/11331502/222894536-46920290-0181-4b6c-8fdb-90ef68263865.png">
 
 
+* Sendig data to the X-RAY daemon : 
+<img width="1680" alt="Capture d’écran 2023-03-04 à 11 41 04" src="https://user-images.githubusercontent.com/11331502/222895482-d27e734d-6172-4ad1-b641-eb64053e9c9e.png">
+
+
+* Getting traes on X-RAY : 
+![Capture d’écran 2023-03-04 à 11 42 48](https://user-images.githubusercontent.com/11331502/222895560-dac7cf28-a021-40d0-b3d3-188d5ac691bb.png)
+
+
 2. React Part 
