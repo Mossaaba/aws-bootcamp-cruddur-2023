@@ -140,4 +140,66 @@ aws xray create-group \
 ![Capture d’écran 2023-03-04 à 11 42 48](https://user-images.githubusercontent.com/11331502/222895560-dac7cf28-a021-40d0-b3d3-188d5ac691bb.png)
 
 
-2. React Part 
+## CloudWatch Logs 
+* Add to the requirements.txt
+
+```sh
+## watchtower --> requirements
+
+pip install -r requirements.txt
+
+```
+
+* Add code to app.py
+
+
+```sh 
+import watchtower
+import logging
+from time import strftime
+```
+
+* Configuring logger  
+
+```sh 
+# Configuring Logger to Use CloudWatch
+LOGGER = logging.getLogger(__name__)
+LOGGER.setLevel(logging.DEBUG)
+console_handler = logging.StreamHandler()
+cw_handler = watchtower.CloudWatchLogHandler(log_group='cruddur')
+LOGGER.addHandler(console_handler)
+LOGGER.addHandler(cw_handler)
+LOGGER.info("some message")
+
+
+
+
+@app.after_request
+def after_request(response):
+    timestamp = strftime('[%Y-%b-%d %H:%M]')
+    LOGGER.error('%s %s %s %s %s %s', timestamp, request.remote_addr, request.method, request.scheme, request.full_path, response.status)
+    return response
+    
+    
+    
+```
+
+* Log API endpoint
+
+```sh 
+LOGGER.info('Hello Cloudwatch! from  /api/activities/home')
+```
+
+<img width="1680" alt="Capture d’écran 2023-03-04 à 12 08 41" src="https://user-images.githubusercontent.com/11331502/222896628-0bc4db91-6176-4eab-b0c2-cbdd9d7d5a95.png">
+
+
+
+
+
+## Rollbar 
+
+
+
+## Homowrok chalanges : 
+
+
