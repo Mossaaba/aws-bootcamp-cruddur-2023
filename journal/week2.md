@@ -2,7 +2,7 @@
 
 
 
-## HoneyCombe
+## HoneyComb
 
 ### 1. Create bootcamp-dev environnemnts 
 <img width="1680" alt="Capture d’écran 2023-03-01 à 23 10 59" src="https://user-images.githubusercontent.com/11331502/222889979-b97f7f62-0ced-4416-9b51-81d330e148c6.png">
