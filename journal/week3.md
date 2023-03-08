@@ -52,3 +52,21 @@ npm i aws-amplify --save
 
 <img width="1680" alt="Capture d’écran 2023-03-08 à 23 55 56" src="https://user-images.githubusercontent.com/11331502/223870188-621e1068-2ccb-40ff-9ea7-8bdf497228d7.png">
 
+
+6- Add name and preferred name : 
+
+<img width="1680" alt="Capture d’écran 2023-03-09 à 00 04 47" src="https://user-images.githubusercontent.com/11331502/223872593-b19b35d3-8ebf-422a-9d8b-ffa2d2961a04.png">
+
+
+7- Add SignIn with confirmation email code : 
+
+<img width="1680" alt="Capture d’écran 2023-03-09 à 00 32 42" src="https://user-images.githubusercontent.com/11331502/223877099-21bef390-6930-4488-b4ef-afb33c27937e.png">
+
+
+<img width="1360" alt="Capture d’écran 2023-03-09 à 00 32 25" src="https://user-images.githubusercontent.com/11331502/223877017-5cab106b-21a0-4912-9b19-9e16abbd18a1.png">
+
+8- Adding SignOut 
+
+<img width="1680" alt="Capture d’écran 2023-03-09 à 00 36 45" src="https://user-images.githubusercontent.com/11331502/223877272-d4492e01-c05c-479c-ad09-c5c6b5e8f5d7.png">
+
+
