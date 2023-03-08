@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { Auth } from 'aws-amplify';
 // [TODO] Authenication
 import Cookies from 'js-cookie'
-import { Auth } from 'aws-amplify';
 
 export default function SignupPage() {
 
