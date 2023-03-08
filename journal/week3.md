@@ -69,4 +69,6 @@ npm i aws-amplify --save
 
 <img width="1680" alt="Capture d’écran 2023-03-09 à 00 36 45" src="https://user-images.githubusercontent.com/11331502/223877272-d4492e01-c05c-479c-ad09-c5c6b5e8f5d7.png">
 
+9- Add recovery page : 
+<img width="1452" alt="Capture d’écran 2023-03-09 à 00 49 50" src="https://user-images.githubusercontent.com/11331502/223878984-07066bb1-7b52-4f0b-b9cb-ba37a3a4d2e0.png">
 
