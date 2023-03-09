@@ -1,7 +1,7 @@
 # Week 3 — Decentralized Authentication
 
 
-### Incognito 
+### Cognito 
 
 1. ``Amazon Cognito`` is a fully managed service that provides authentication, authorization, and user management for web and mobile applications, helping developers quickly add user sign-up, sign-in, and access control to their applications. Its purpose is to simplify the development process and improve the security of user data.
 
@@ -16,6 +16,8 @@
 <img width="1680" alt="Capture d’écran 2023-03-08 à 20 30 45" src="https://user-images.githubusercontent.com/11331502/223824445-d1a46573-b891-472c-ad77-3b7a39f2e80c.png">
 
 
+### Amplify JS
+
 3. ```AWS Amplify`` is a set of tools and services that enables developers to build scalable and secure cloud-powered web and mobile applications. Its purpose is to simplify the development process by providing pre-built components, backend services, and integration with other AWS services.
 
 - Install [amplify](https://docs.amplify.aws/start/q/integration/react/)
@@ -29,9 +31,9 @@ npm i aws-amplify --save
 
 -- import amplify into app.js `` import { Amplify } from 'aws-amplify'; ``
 
+### React JS part 
 
-
-3. Customisation of authentification react component : 
+- Customisation of authentification react component : 
 
 <img width="1680" alt="Capture d’écran 2023-03-08 à 23 51 30" src="https://user-images.githubusercontent.com/11331502/223869449-4b344f55-870e-4f0d-92ca-d0621c9968b1.png">
 
@@ -58,6 +60,9 @@ npm i aws-amplify --save
 <img width="1680" alt="Capture d’écran 2023-03-09 à 00 04 47" src="https://user-images.githubusercontent.com/11331502/223872593-b19b35d3-8ebf-422a-9d8b-ffa2d2961a04.png">
 
 
+
+### SingIn && singOut && recovery 
+
 7- Add SignIn with confirmation email code : 
 
 <img width="1680" alt="Capture d’écran 2023-03-09 à 00 32 42" src="https://user-images.githubusercontent.com/11331502/223877099-21bef390-6930-4488-b4ef-afb33c27937e.png">
@@ -71,4 +76,15 @@ npm i aws-amplify --save
 
 9- Add recovery page : 
 <img width="1452" alt="Capture d’écran 2023-03-09 à 00 49 50" src="https://user-images.githubusercontent.com/11331502/223878984-07066bb1-7b52-4f0b-b9cb-ba37a3a4d2e0.png">
+
+### JWTs
+
+
+10 - Lean about different approaches to verifying JWTs, and how can securise endpoints with AWS api gateway [AWS JWT](https://aws.amazon.com/fr/blogs/security/how-to-secure-api-gateway-http-endpoints-with-jwt-authorizer/)
+
+11- How tp implement JWI with flask [LINK](https://www.geeksforgeeks.org/using-jwt-for-user-authentication-in-flask/) 
+
+
+
+
 
