@@ -84,7 +84,53 @@ npm i aws-amplify --save
 
 11- How tp implement JWI with flask [LINK](https://www.geeksforgeeks.org/using-jwt-for-user-authentication-in-flask/) 
 
+12- Implement JWT  
+
+- Sending Header with the url 
+```py
+const res = await fetch(backend_url, {
+        headers: {
+          Authorization: `Bearer ${localStorage.getItem("access_token")}`
+        },
+```
+- Adding CROS 
+
+```py 
+cors = CORS(
+  app, 
+  resources={r"/api/*": {"origins": origins}},
+  headers=['Content-Type', 'Authorization'], 
+  expose_headers='Authorization',
+  methods="OPTIONS,GET,HEAD,POST"
+)
+````
+
+
+- Logging the header get it from REACT (local storage)
+
+```py 
+@app.route("/api/activities/home", methods=['GET'])
+def data_home():
+  app.logger.info("AUTH HEADER")
+  app.logger.info(request.headers.get('Authorization'))
+  data = HomeActivities.run(LOGGER)
+  return data, 200
+  
+```
+
+<img width="1680" alt="Capture d’écran 2023-03-11 à 00 05 08" src="https://user-images.githubusercontent.com/11331502/224447903-b3eb2fcf-568d-4604-8eb2-0d8b74c5cae1.png">
 
 
 
+- Validation of the token : 
 
+<img width="1680" alt="Capture d’écran 2023-03-11 à 00 35 28" src="https://user-images.githubusercontent.com/11331502/224448141-5fd1e664-333b-4304-b9e8-0760406dcc09.png">
+
+- add CognitoJwtToken to the lib 
+
+<img width="1680" alt="Capture d’écran 2023-03-11 à 00 36 00" src="https://user-images.githubusercontent.com/11331502/224448173-2fa15782-7f1d-4d6e-a670-bea576663aa3.png">
+
+
+- Validate authentification 
+
+<img width="1680" alt="Capture d’écran 2023-03-11 à 00 26 54" src="https://user-images.githubusercontent.com/11331502/224448218-7a0d6713-765f-4404-b5d9-954771db4ac6.png">
