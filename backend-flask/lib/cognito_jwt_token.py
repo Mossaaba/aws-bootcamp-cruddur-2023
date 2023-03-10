@@ -33,7 +33,7 @@ class CognitoJwtToken:
 
 
     def _load_jwk_keys(self):
-        keys_url = f"https://cognito-idp.eu-west-3.amazonaws.com/eu-west-3_QwrIRYWS3/.well-known/jwks.json"
+        keys_url = f"https://cognito-idp.{self.region}.amazonaws.com/{self.user_pool_id}/.well-known/jwks.json"
         try:
             response = self.request_client(keys_url)
             self.jwk_keys = response.json()["keys"]
