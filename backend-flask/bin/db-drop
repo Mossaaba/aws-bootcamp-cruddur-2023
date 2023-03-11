@@ -1,0 +1,18 @@
+#! /usr/bin/bash
+
+echo "DB-DROP"
+
+
+
+NO_DB_CONNECTION_URL=$(sed 's/\/cruddur//g' <<<  "$CONNECTION_URL")
+# sed ===> to manioulate string 
+# sed 's/SLECT / REPLACE /'    
+
+##Delete tabble
+psql $NO_DB_CONNECTION_URL -c "DROP TABLE IF EXISTS public.users;"
+
+psql $NO_DB_CONNECTION_URL -c "DROP TABLE IF EXISTS public.activities;"
+
+##Delete databae
+psql $NO_DB_CONNECTION_URL -c "DROP database cruddur;"
+
